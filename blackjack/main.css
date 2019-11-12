@@ -1,0 +1,57 @@
+body{
+    background-color: lightblue;
+}
+
+#playArea {
+    margin:0;
+   
+
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 80px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: normal;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+text-align: center;
+}
+
+#player{
+    width:75%;
+    overflow:hidden;
+    display:inline-block;
+}
+
+#cpu{
+    overflow:hidden;
+    display:inline-block;
+}
+
+.button{
+  background-color:black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button[disabled]{
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
