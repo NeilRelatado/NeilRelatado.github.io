@@ -1,3 +1,6 @@
+body{
+    background-image: url(images/red-casino-background.jpg);
+}
 #playArea {
     margin:0;
    
@@ -15,9 +18,7 @@ text-transform: uppercase;
 text-align: center;
 }
 
-#title {
-    background-color: white;
-}
+
 
 #playerArea{
     background-color: black;
@@ -29,8 +30,9 @@ text-align: center;
     color:black;
 }
 
-#title{
-    background-image: url("images/photo-1561034645-e6f28dfddd2c.jpg");
+#playArea{
+    
+    color: white;
 }
 
 
