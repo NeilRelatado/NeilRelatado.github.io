@@ -1,4 +1,7 @@
- //Get Player Number
+
+document.getElementById("cpuArea").style.display = "none"
+
+//Get Player Number
  var n= Math.random();
  n=n*10;
  n=Math.floor(n)+1;
@@ -30,6 +33,10 @@ function hitMe(){
   document.getElementById("playBtn").disabled=true;
   document.getElementById("opponentsNum").innerHTML=c;
   document.getElementById("retryBtn").disabled=false;
+  document.getElementById("cpuArea").style.display = "block"
+
+ 
+
 
 }
 } 
@@ -37,7 +44,8 @@ function hitMe(){
 function play(){
   document.getElementById("opponentsNum").innerHTML=c;
   document.getElementById("retryBtn").disabled=false;
-
+  document.getElementById("cpuArea").style.display = "block"
+ 
   if (n === c){
     document.getElementById("results").innerHTML="Draw";
     document.getElementById("hitMe").disabled=true;
