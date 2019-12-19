@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+    background-image: url("carl-raw-m3hn2Kn5Bns-unsplash.jpg");
+    background-size: cover;
+
+}
+
+#playArea{
+    overflow:hidden;
+    display:inline-block;
+}
+
+h1{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
