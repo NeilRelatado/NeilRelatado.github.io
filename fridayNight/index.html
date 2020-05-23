@@ -9,11 +9,9 @@
 <body style="font-family: Arial, Helvetica, sans-serif;;">
   <div id="fridayNight" style="display:none; text-align: center">
        <h1>ITS FRIDAY NIGHT</h1>
-        <audio controls autoplay loop>
-                <source src="friday.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-              </audio> <br />     
-              <img src="friday.gif" alt="ITSFRIDAYNIGHT" />
+       <span id="playFridayNight"> 
+       </span> 
+        <img src="friday.gif" alt="ITSFRIDAYNIGHT" />
   </div>
 
   <div id="NotFridayNight" style="display:none;text-align: center;">
@@ -51,6 +49,8 @@
     
     if (today.getDay() == 5 && today.getHours() > 16){
         document.getElementById("fridayNight").style.display = "block";
+        document.getElementById("playFridayNight").innerHTML += 
+        ' <audio controls autoplay loop> <source src="friday.mp3" type="audio/mpeg"> </audio> <br />';
     } else {
         document.getElementById("NotFridayNight").style.display = "block";
 
