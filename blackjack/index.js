@@ -34,11 +34,19 @@ function hitMe(){
   document.getElementById("opponentsNum").innerHTML=c;
   document.getElementById("retryBtn").disabled=false;
   document.getElementById("cpuArea").style.display = "block"
-
- 
-
-
 }
+
+if(n === 21){
+  document.getElementById("results").innerHTML="You Win";
+  document.getElementById("hitMe").disabled=true;
+  document.getElementById("playBtn").disabled=true;
+  document.getElementById("opponentsNum").innerHTML=c;
+  document.getElementById("retryBtn").disabled=false;
+  document.getElementById("cpuArea").style.display = "block"
+}
+
+
+
 } 
 
 function play(){
